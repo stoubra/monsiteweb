@@ -31,11 +31,13 @@ sections:
       
     design:
       columns: '1'
-      
+
   - block: resume-awards
     content:
       title: Enseignement
       username: me
+    design:
+      date_format: '2006'
  # - block: resume-awards
  #   content:
  #     title: Awards
