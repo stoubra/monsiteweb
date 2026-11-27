@@ -39,7 +39,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        ''
+        
     design:
       columns: '1'
 
