@@ -23,13 +23,14 @@ sections:
       title: Enseignement
       subtitle: ''
       text: |
-        ### Nom du cours ou du module (2024 - Présent)
-        **Établissement / Université** — Niveau (ex. Master 1)
-        * Description courte des matières enseignées ou des travaux dirigés.
+        ### Charge TD/TP, Analyse de données (2025 - Présent)
+        **Mines Nancy** 
 
-        ### Autre cours (2022 - 2024)
-        **Établissement** — Niveau
-        * Description courte.
+        ### Charge TD/TP, Apprentissage supervisé (2025 - Présent)
+        **Telecom Nancy** 
+
+        ### Charge TD/TP, Outil mathématique pour la gestion et finance (2025 - Présent)
+        **IUT Charlemagne**
     design:
       columns: '1'
   
