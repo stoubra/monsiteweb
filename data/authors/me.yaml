@@ -37,18 +37,18 @@ links:
 #  - AI Ethics
 
 # Parcours universitaire (Diplômes)
-#education:
-#  - degree: Doctorat en mathématiques
-#    institution: Université de lorraine
-#    year: 2024 - Aujourd'hui
-#    #summary: |
-#     # Titre de la thèse : *« Titre complet de votre thèse »*, sous la direction de Pr. Nom.
-#  - degree: Master 2 Ingénierie Mathématiques et Data Science
-#    institution: Université de Haute-Alsace 
-#    year: 2023
-#  - degree: Licence de Mathématiques
-#    institution: Université de Haute-Alsace 
-#    year: 2021
+education:
+  - degree: Doctorat en mathématiques
+    institution: Université de lorraine
+    year: 2024 - Aujourd'hui
+    #summary: |
+     # Titre de la thèse : *« Titre complet de votre thèse »*, sous la direction de Pr. Nom.
+  - degree: Master 2 Ingénierie Mathématiques et Data Science
+    institution: Université de Haute-Alsace 
+    year: 2023
+  - degree: Licence de Mathématiques
+    institution: Université de Haute-Alsace 
+    year: 2021
 
 # Expériences professionnelles et postes occupés
 #experience:
