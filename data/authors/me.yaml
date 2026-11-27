@@ -37,7 +37,7 @@ links:
 #  - AI Ethics
 
 # Parcours universitaire (Diplômes)
-Formation:
+education:
   - degree: Doctorat en mathématiques
     institution: Université de lorraine
     year: 2024 - Aujourd'hui
@@ -49,36 +49,24 @@ Formation:
   - degree: Licence de Mathématiques
     institution: Université de Haute-Alsace 
     year: 2021
-Enseignements:
-  - role: Charge TD/TP, Analyse de données
-    org: Mines Nancy
-    start: 2025-09-01
-  - role: Charge TD/TP, Apprentissage supervisé
-    org: Telecom Nancy
-    start: 2025-09-01
-  - role: Charge TD/TP, Outil mathématiques pour la gestion et finance 
-    org: IUT Charlemagne Nancy
-    start: 2025-09-01
-  - role: Cours et TD, Administration de site web
-    org: Université de haute Alsace, Mulhouse
-    start: 2024 
+
 # Expériences professionnelles et postes occupés
 #experience:
-#  - role: Senior AI Research Scientist
-#    org: Meta AI
-#    start: 2020-01-01
-#    summary: |
-#      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-#    button:
-#      text: View portfolio
-#      url: /
-#      icon: hero/arrow-down-tray
-#  - role: AI Research Intern
-#    org: OpenAI
-#    start: 2019-06-01
-#    end: 2019-12-31
-#    summary: |
-#      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+ # - role: Senior AI Research Scientist
+  #  org: Meta AI
+  #  start: 2020-01-01
+  #  summary: |
+  #    Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+  #  button:
+  #   text: View portfolio
+  #    url: /
+  #    icon: hero/arrow-down-tray
+  #- role: AI Research Intern
+  #  org: OpenAI
+  #  start: 2019-06-01
+  #  end: 2019-12-31
+  #  summary: |
+  #    Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 #skills:
 #  - name: Technical Skills
