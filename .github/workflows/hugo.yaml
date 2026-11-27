@@ -24,16 +24,34 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Compile LaTeX CV to PDF
+        if: hashFiles('cv-latex/resume.tex') != ''
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resume.tex
+          working_directory: cv-latex
+          args: -pdf -interaction=nonstopmode
+
+      - name: Copy compiled PDF to static/uploads
+        if: hashFiles('cv-latex/resume.pdf') != ''
+        run: |
+          mkdir -p static/uploads
+          cp cv-latex/resume.pdf static/uploads/resume.pdf
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -43,6 +61,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
