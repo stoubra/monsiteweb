@@ -1,0 +1,129 @@
+\documentclass[11pt]{article}
+
+%\usepackage{geometry} 
+%
+%\geometry{top=0.8cm, bottom=0.8cm, left=2.5cm, right=2.5cm}
+\usepackage{fullpage}
+\usepackage[svgnames,dvipsnames]{xcolor}
+\usepackage[parfill]{parskip}
+\newcommand{\hcolorrulefill}[1][RoyalBlue]{{\color{#1}\hrulefill}}
+
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=gray]{hyperref}
+
+\usepackage{enumitem}
+
+\newcommand*{\doi}[1]{\href{http://dx.doi.org/#1}{doi: #1}}
+
+%%%%% packages for french %%%%%
+
+\usepackage[french]{babel}
+\usepackage{times}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%%%%% package for maths %%%%%
+
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+
+%%%%% macros %%%%%
+
+\newcommand{\fu}{\mathfrak{u}}
+\newcommand{\fv}{\mathfrak{v}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\RR}{\mathbb{R}}
+\DeclareMathOperator{\Dom}{Dom}
+
+%%%%% corpus %%%%%
+\begin{document}
+	
+	%%%%% titre %%%%%	
+	
+	\noindent
+	\hcolorrulefill \\
+	\vspace{-1\baselineskip}
+	%\begin{center}
+	%	\huge	\color{RoyalBlue}{Candidature thèse}
+	%\end{center}
+	\vspace{-0.5\baselineskip}
+	\hcolorrulefill \\ \vspace{1\baselineskip}
+	
+	%%%%% infos rapides %%%%%
+	\noindent
+	\textbf{\large Saïd TOUBRA} \\ \\
+	Master Ingénierie Mathématiques et Data Science à l'Université de Haute Alsace \\ 
+	%Adresse: Rue de la concorde 68000 Colmar\\
+	%Téléphone: +33 6 34 62 99 81\\
+	E-mail: \href{mailto:said.toubra@univ-lorraine.fr.fr}\\%{saidtoubra@gmail.com}\\
+	%%%%%
+	\section*{\color{RoyalBlue}{Formation}}
+	\noindent
+	\textbf{2023} \ Master Ingénierie Mathématiques et Data Science, Université de Haute-Alsace.\\
+	\textbf{2021} \ Licence de Mathématiques, Université de Haute Alsace.
+	%%%%%
+	\section*{\color{RoyalBlue}{Expérience académique}}
+	\noindent
+	\textbf{Depuis octobre 2023} Ingénieur d'étude dans l'équipe d'Archimèd de Université de Haute-Alsace.\\
+	\textbf{Description : } Mon travail se divise en deux phases distinctes. La première phase a été consacrée à l’étude des caractéristiques de la distance géodésique. Pour ce faire, j’ai réalisé une recherche bibliographique approfondie et rédigé des rapports complets sur les espaces géodésiques et les espaces de longueurs. L’objectif était de déterminer les outils nécessaires pour mieux appréhender les géométries induites par les vecteurs de poids présents dans les différentes couches des réseaux de neurones.
+	
+	La seconde phase a impliqué l’analyse du code du réseau de neurones Word2vec, un outil permettant de convertir les mots d’un corpus en vecteurs. Pour ce faire, j’ai dû reprendre le code initialement écrit en C et le réécrire en Python, tout en cherchant à comprendre les propriétés géométriques et statistiques utilisées dans cet algorithme. 
+	
+	Parallèlement, j’ai mené des études statistiques basées sur des méthodes d’analyse factorielle appliquées à des corpus. J’ai également présenté un exposé lors d’un colloque portant sur une étude réalisée sur \textit{le Traité de la Tolérance de Voltaire}. L’objectif principal de ce travail était de démontrer aux chercheurs en sciences humaines et sociales la puissance et l’importance des outils statistiques et des analyses de données dans l’étude des corpus.  
+	
+	\textbf{2023} Stagiaire dans l'équipe PASTA à Inria Nancy - Grand Est  et Institut Élie Cartan de Lorraine (IECL) avec Antoine Lejay et Lionel Lenotre (mars - août).  \\
+	\textbf{Sujet du stage : } Méthode d'agrégation et de réduction de dimension pour l'analyse de discours. \\
+	\textbf{Descriptif du stage : } Durant ce stage,  j'ai commencé par me familiariser avec des librairies de traitement de langage naturel telles que Natural Language Toolkit (NLTK) et Classical Language Toolkit (CLTK) afin d'extraire des données textuelles d'ouvrages en grec ancien. Puis, j'ai déployé des méthodes de réduction de dimension et d'analyse telles que l'Analyse en Composantes Principales (ACP) et le t-distributed stochastic neighbor embedding (t-SNE) sur des données textuelles. Pour obtenir des relations caractéristiques entre des mots et groupes de mots, j'ai expérimenté différentes méthodes d'agrégation (clustering) : Soft k-moyennes, k-moyennes, clustering spectral. J'ai étudié l'algorithme de l'espérance-maximisation (EM) dans le cadre de mes travaux. Mon travail a consisté à comprendre en profondeur cet algorithme, et démontrer les principes fondamentaux, et à le coder pour une application numérique. J'ai également exploré un article portant sur la création de cellules de Voronoi à l'aide d'un maillage. Une fois l'article compris, j'ai répondu aux questions posées dans cet article. Puis, je code l'algorithme pour des applications numériques. Toutefois, j'ai également réalisé des modifications à l'algorithme initial pour le rendre adaptable à d'autres tâches, notamment celle du k-moyennes.
+	
+	\textbf{2021-2023} Tuteur numérique et méthodologique, Université de Haute-Alsace (UHA)  Mulhouse. \\
+	\textbf{Description :} Pendant deux années scolaires, j’ai animé des séances de tutorat pour des étudiants de première année. La première année, j’ai eu une dizaine d’étudiants en Physique-Chimie, puis la deuxième année une vingtaine d’étudiants en mathématiques. L’objectif était de les accompagner en complément de leurs cours afin de minimiser le nombre d’abandons. Pour ce faire, j’ai commencé les séances en répondant à leurs questions sur les éléments du cours qu’ils ne maîtrisaient pas. Ensuite, nous avons corrigé les exercices abordés en cours qui leur semblaient difficiles. Je les laissais travailler individuellement pour qu’ils puissent avancer à leur propre rythme tout en répondant aux questions des uns et des autres, avant de procéder à une correction générale si nécessaire.     
+	\section*{\color{RoyalBlue}{Expérience non académique}}
+	\noindent
+	\textbf{2019 - 2022} Agent de restauration saisonnier, Buffalo grill, La ravoire (juin - août). \\
+	\textbf{2021 - 2022} Accueil et Secrétariat, Centre de vaccination, Mulhouse (juin - février). \\
+	\textbf{2016 - 2018} Cours particuliers de mathématiques niveau collège.
+	\section*{\color{RoyalBlue}{Compétences}}
+	\noindent
+	\textbf{Analyse de données :} Méthode d'agrégation (clustering), Analyse factorielle des données (ACP, AFM, ACM, etc.), t-distributed stochastic neighbor embedding , k-means, Soft k-means, Spectral clustering. 
+	
+	\textbf{Statistique :} Modèles de régression, Validation de modèles, Tests statistiques, Estimation paramétrique, statistique descriptive, théorèmes limites, inégalités de concentration.
+	
+	\textbf{Machine Learning :} Adaline, Perceptron, Moindres carrés, Réseaux multicouches, Recurrent Neural Networks (RNN), Self-organizing Map (SOM). 
+	
+	\textbf{Méthodes numériques :} algorithmes Expectation-Maximisation, Méthodes de Monte-Carlo, Analyse de Fourier,   Solveurs matriciels, Méthodes d'éléments finis.
+	
+	\textbf{Langage de programmation :} Python, R, C++, C\#, NoSQL, SQL, HTLM, CSS, JavaScript.
+	
+	%\textbf{Librairies :} NLTK, CLTK. \\ \\
+	\textbf{Langue :} Français (courant), Anglais (B2).
+	
+	
+	\textbf{Autre :} Latex, Office, GitLab.	
+	%%%%%
+	\section*{\color{RoyalBlue}{Projets}}
+	\noindent
+	\textbf{2023} Projets personnels (Programmation, Statistique) : \url{https://github.com/stoubra}.
+	
+	\textbf{2023} Projet Recherche en Master 2 IMDS : Implémentation en Python et amélioration d’un algorithme de traitement d’image initialement codé en C++.
+	
+	\textbf{2023} Projet Transformation Numérique en Master : Analyse en Composantes Principales appliquées à des données économiques européennes sur l’employabilité.     
+	
+	\textbf{2022} Projet Professionel en Master 1 IMDS : Théorie et algorithme pour la méthode simplexe.
+	
+	\textbf{2021} Travail d'Étude et de Recherche en Licence 3 : Fluctuation in Coin Tossing and Random Walks,
+	étude d'un chapitre de An Introduction to Probability Theory and its Applications, W. Feller.
+	
+	\textbf{2020} Création de deux brochures de mathématiques pour le programme de 1ère et terminale scientifique (programme Comores) pour une association d'aide à la jeunesse et à l’éducation.
+	
+	%%%%%
+	\section*{\color{RoyalBlue}{Divers}}
+	\noindent
+	\textbf{Académique : }
+	\begin{itemize}
+		\item[$\bullet$] 17 février 2024, présentation d’un exposé sur l’analyse des corpus à l’aide des outils statistiques et d'analyse des données lors d’un colloque à l'université de Haute-Alsace, Mulhouse. L’étude est réalisée sur le \textit{Traité de la Tolérance de Voltaire}.
+		\item[$\bullet$] Aide à la commission d'organisation de la conférence internationale Informs APS-23 Nancy du 28 au 30 juin 2023.
+	\end{itemize}
+	\textbf{Sport : } Course à pied (Sélection régionale 2013 Mitsamiouli Comores).\\
+	\textbf{Culture : } Participation et animation de journées culturelles comoriennes.
+	
+\end{document}
