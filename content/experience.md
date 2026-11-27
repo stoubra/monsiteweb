@@ -13,14 +13,26 @@ sections:
   - block: resume-experience
     content:
       username: me
-      headings:
-        experience: Expérience
-        education: Formation
     design:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: markdown
+    content:
+      title: Enseignement
+      subtitle: ''
+      text: |
+        ### Nom du cours ou du module (2024 - Présent)
+        **Établissement / Université** — Niveau (ex. Master 1)
+        * Description courte des matières enseignées ou des travaux dirigés.
+
+        ### Autre cours (2022 - 2024)
+        **Établissement** — Niveau
+        * Description courte.
+    design:
+      columns: '1'
+  
  # - block: resume-skills
  #   content:
  #     title: Skills & Hobbies
