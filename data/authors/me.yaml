@@ -58,7 +58,7 @@ experience:
     summary: |
       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
     button:
-     text: View portfolio
+      text: View portfolio
       url: /
       icon: hero/arrow-down-tray
   - role: AI Research Intern
