@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'stoubra'
 # Website URL
-baseURL: 'https://github.io'
+baseURL: 'https://saidtoubra.github.io'
 
 ############################
 ## LANGUAGE
