@@ -23,14 +23,11 @@ sections:
       title: Enseignement
       subtitle: ''
       text: |
-        ** Charge TD/TP, Analyse de données (2025 - Présent)**
-        *Mines Nancy*
-
-        ** Charge TD/TP, Apprentissage supervisé (2025 - Présent)**
-        *Telecom Nancy*
-
-        ** Charge TD/TP, Outil mathématique pour la gestion et finance (2025 - Présent)**
-        *IUT Charlemagne*
+        ** 2025 - Présent : Charge TD/TP, **
+            * Analyse de données, Mines Nancy. \\
+              Apprentissage supervisé, Telecom Nancy. \\ 
+              Outil mathématique pour la gestion et finance, IUT Charlemagne *
+      
     design:
       columns: '1'
   
