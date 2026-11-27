@@ -1,0 +1,18 @@
+﻿awards:
+  - title: Analyse de données
+    summary: |
+      * Méthode d'agrégation (clustering), Analyse factorielle des données (ACP, AFM, ACM, etc.), t-distributed stochastic neighbor embedding , k-means, Soft k-means, Spectral clustering
+
+  - title: Statistique
+    summary: |
+      * Modèles de régression, Validation de modèles, Tests statistiques, Estimation paramétrique, statistique descriptive, théorèmes limites, inégalités de concentration.
+
+  - title: Machine Learning
+    summary: |
+      * Adaline, Perceptron, Moindres carrés, Réseaux multicouches, Recurrent Neural Networks (RNN), Self-organizing Map (SOM).
+  
+  - title: Programmation
+    summary: |
+      *  Python, R, C++, Scilab, Matlab, NoSQL, SQL, HTLM, CSS, JavaScript, JSON.
+  
+  

@@ -21,11 +21,25 @@ sections:
  
   - block: resume-awards
     content:
-      title: Enseignement
+      title: Enseignements
       username: me
     design:
       date_format: '2006'
-      
+  
+  - block: resume-awards
+    content:
+      title: Autre expérience académique
+      username: awards2
+    design:
+      date_format: '2006'
+
+  - block: resume-awards
+    content:
+      title: Compétences
+      username: awards3
+    design:
+      date_format: '2006'
+
  # - block: resume-awards
  #   content:
  #     title: Awards
