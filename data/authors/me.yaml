@@ -67,7 +67,21 @@ education:
   #  end: 2019-12-31
   #  summary: |
   #    Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+skills:
+  - name: 2025 - Présent : Chargé de TD/TP
+    items:
+      - name: Analyse de données (Mines Nancy)
+        description: ''
+        percent: 100
+        icon: academic-cap
+      - name: Apprentissage supervisé (Telecom Nancy)
+        description: ''
+        percent: 100
+        icon: academic-cap
+      - name: Outil mathématique pour la gestion et finance (IUT Charlemagne)
+        description: ''
+        percent: 100
+        icon: academic-cap
 #skills:
 #  - name: Technical Skills
 #    items:

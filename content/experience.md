@@ -32,10 +32,10 @@ sections:
     design:
       columns: '1'
   
- # - block: resume-skills
- #   content:
- #     title: Skills & Hobbies
- #     username: me
+  - block: resume-skills
+    content:
+      title: Eseignement
+      username: me
  # - block: resume-awards
  #   content:
  #     title: Awards
