@@ -68,20 +68,17 @@ links:
   #  summary: |
   #    Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 awards:
-  - title: Chargé de TD/TP (2025 – Présent)
+  - title: Doctorat en mathématiques (2024 - Aujourd'hui)
     date: ''
-    awarder: Université de Lorraine (UL)
-    summary: |
-      * Analyse de données (Mines Nancy)
-      * Apprentissage supervisé (Telecom Nancy)
-      * Outil mathématique pour la gestion et finance (IUT Charlemagne)
+    awarder: Université de Haute-Alsace
 
-  - title: Chargé de cours et TD (2024)
+  - title: Master 2 Ingénierie Mathématiques et Data Science (2023)
     date: ''
     awarder: Universitée de Haute-Alsace, Mulhouse
-    summary: |
-      Administration de site web
 
+  - title: Licence de Mathématiques (2021)
+    date: ''
+    awarder: Universitée de Haute-Alsace, Mulhouse
 
 #skills:
 #  - name: Technical Skills

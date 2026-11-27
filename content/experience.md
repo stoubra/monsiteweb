@@ -18,11 +18,18 @@ sections:
 #      date_format: 'January 2006'
 #      # Education or Experience section first?
 #      is_education_first: false
- 
+  
+  - block: resume-awards
+    content:
+      title: Formation
+      username: me
+    design:
+      date_format: '2006'
+
   - block: resume-awards
     content:
       title: Enseignements
-      username: me
+      username: awards1
     design:
       date_format: '2006'
   
