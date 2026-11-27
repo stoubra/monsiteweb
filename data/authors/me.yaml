@@ -69,6 +69,7 @@ education:
   #    Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 awards:
   - title: Chargé de TD/TP (2025 – Présent)
+    date: ''
     awarder: Université de Lorraine (UL)
     summary: |
       * Analyse de données (Mines Nancy)
@@ -76,6 +77,7 @@ awards:
       * Outil mathématique pour la gestion et finance (IUT Charlemagne)
 
   - title: Chargé de cours et TD (2024)
+    date: ''
     awarder: Universitée de Haute-Alsace, Mulhouse
     summary: |
       Administration de site web
