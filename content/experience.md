@@ -31,10 +31,10 @@ sections:
       
     design:
       columns: '1'
-  
-  - block: resume-skills
+      
+  - block: resume-awards
     content:
-      title: Eseignement
+      title: Enseignement
       username: me
  # - block: resume-awards
  #   content:
