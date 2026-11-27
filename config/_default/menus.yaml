@@ -17,7 +17,7 @@ main:
   #  url: /#news
   #  weight: 13
   - name: Classical CV
-    url: CV/
+    url: experience/
     weight: 20
   #- name: Projects
   #  url: projects/
