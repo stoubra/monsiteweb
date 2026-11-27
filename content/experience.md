@@ -18,26 +18,14 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: markdown
-    content:
-      title: Enseignement
-      subtitle: ''
-      text: |
-        **2025 - Présent : Chargé de TD/TP**
-
-        *   Analyse de données, Mines Nancy.
-        *   Apprentissage supervisé, Telecom Nancy.
-        *   Outil mathématique pour la gestion et finance, IUT Charlemagne.
-      
-    design:
-      columns: '1'
-
+ 
   - block: resume-awards
     content:
       title: Enseignement
       username: me
     design:
       date_format: '2006'
+      
  # - block: resume-awards
  #   content:
  #     title: Awards
